@@ -72,4 +72,9 @@ footer {
 .product_row  .product-properties  li {
   width: 25%;
   float: left;
+
 }
+body{
+  background-color: #dedede;
+}
+

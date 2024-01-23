@@ -27,4 +27,4 @@ insert into products (name, description, code, price) values ('Utopia', 'Travis 
 insert into products (name, description, code, price) values ('To Pimp a Butterfly', '
   Kendrick Lamar', '686928463-6', 14);
 insert into products (name, description, code, price) values ('Flower Boy', 'Tyler the Creator', '492662523-7', 14);
-
+insert into products (name, description, code, price) values ('Mm.. Food', 'MF Doom', '816905633-0', 10.5);

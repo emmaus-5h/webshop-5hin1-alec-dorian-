@@ -24,8 +24,7 @@ insert into products (name, description, code, price) values ('blond', 'Frank Oc
 insert into products (name, description, code, price) values ('My Beatiful Dark Twisted Fantasy', 'Ye', '077030122-3', 11);
 insert into products (name, description, code, price) values ('The Life of Pablo', 'Ye', '445924201-X', 13.5);
 insert into products (name, description, code, price) values ('Utopia', 'Travis Scott', '693155505-7', 13.5);
-insert into products (name, description, code, price) values ('To Pimp a Butterfly', '
-  Kendrick Lamar', '686928463-6', 14);
+insert into products (name, description, code, price) values ('To Pimp a Butterfly', 'Kendrick Lamar', '686928463-6', 14);
 insert into products (name, description, code, price) values ('Flower Boy', 'Tyler the Creator', '492662523-7', 14);
 insert into products (name, description, code, price) values ('Mm.. Food', 'MF Doom', '816905633-0', 10.5);
 insert into products (name, description, code, price) values ('graduation', 'Ye', '077030122-3', 11);

@@ -28,3 +28,6 @@ insert into products (name, description, code, price) values ('To Pimp a Butterf
   Kendrick Lamar', '686928463-6', 14);
 insert into products (name, description, code, price) values ('Flower Boy', 'Tyler the Creator', '492662523-7', 14);
 insert into products (name, description, code, price) values ('Mm.. Food', 'MF Doom', '816905633-0', 10.5);
+insert into products (name, description, code, price) values ('graduation', 'Ye', '077030122-3', 11);
+insert into products (name, description, code, price) values ('IGOR', 'Tyler the Creator', '445924201-X', 13.5);
+insert into products (name, description, code, price) values ('Whole Lotta Red', 'Playboy Carti', '693155505-7', 13.5);

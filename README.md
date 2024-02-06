@@ -203,3 +203,29 @@ for help almost 24x7 with many questions and problems and providing basic shop c
 
 
 
+# AANTEKENINGEN API EN WEB
+1. kijken video api: https://youtu.be/cC36exZSHOE?list=PLpTljPS--R5CZQu8A4igpazZsRUEA7NHJ
+  
+  - mapje: api/index.js
+
+    - regel: app.get('/api/products', getproduct )
+
+    - getprodcuts geeft de code die de vraag beantwoord
+
+   - in getproducts staat de sql query voor de database
+
+  - 'SELECT products.id AS id, products.name AS name, products.description AS description, products.code 
+        AS 
+    code, products.price AS price FROM products ORDER BY name ASC'
+
+   - as de query aan zodat er extra velden door uit de database worden opgevraagd. gebruik altijd AS. bij 1:n moet je JOIN gebruiken.
+
+   
+2.  kijken video web: https://youtu.be/YgncqcjAu6s?list=PLpTljPS--R5CZQu8A4igpazZsRUEA7NHJ
+web/index.html
+-  css en html
+-  onder de regel:  <!-- template for product info--> staat het template voor een product.
+-  het template wordt gekopieerd voor elk product dat je op de site toont.
+-  als je een veld aan het template hebt toegevoegd
+-  bij clone aanpassen en erboven nieuwe query maken en daarna di etoevoegen in de clone
+-              for (let row in data) { // herhaal voor elke product),,, dit was ook belangrijk weet niet wrm

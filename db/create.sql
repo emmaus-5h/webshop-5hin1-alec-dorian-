@@ -27,6 +27,12 @@ CREATE TABLE FeaturedArtist (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name VARCHAR(255)
 );
+
+CREATE TABLE bijelkaar (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  FeaturedArtist_id
+
+);
 --
 -- populate with data
 --
@@ -35,16 +41,17 @@ CREATE TABLE FeaturedArtist (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, code, price, Artist_id, Rating_id values ('Blond', 'Frank Ocean', '816905633-0', 29.99, 1, 2);
-insert into products (name, description, code, price, Artist_id, Rating_id values ('My Beatiful Dark Twisted Fantasy', 'Ye', '077030122-3', 24.99, 2, 2);
-insert into products (name, description, code, price, Artist_id, Rating_id values ('The Life of Pablo', 'Ye', '445924201-X', 24.99, 2, 3);
-insert into products (name, description, code, price, Artist_id, Rating_id values ('Utopia', 'Travis Scott', '693155505-7', 29.99, 3, 3);
-insert into products (name, description, code, price, Artist_id, Rating_id values ('To Pimp a Butterfly', 'Kendrick Lamar', '686928463-6', 14.99, 4, 1);
-insert into products (name, description, code, price, Artist_id, Rating_id values ('Flower Boy', 'Tyler the Creator', '492662523-7', 24.99, 5, 2);
-insert into products (name, description, code, price, Artist_id, Rating_id values ('Astroworld', 'Travis Scott', '816905633-0', 29.99, 3, 3);
-insert into products (name, description, code, price, Artist_id, Rating_id values ('Graduation', 'Ye', '077030122-3', 19.99, 2, 3);
-insert into products (name, description, code, price, Artist_id, Rating_id values ('IGOR', 'Tyler the Creator', '445924201-X', 24.99, 5, 2);
-insert into products (name, description, code, price, Artist_id, Rating_id values ('Damn', 'Kendrick Lamar', '693155505-7', 24.99, 4, 3);
+insert into products (name, description, code, price, Artist_id, Rating_id) values ('Blond', 'Frank Ocean', '816905633-0', 29.99, 1, 2);
+insert into products (name, description, code, price, Artist_id, Rating_id) values ('My Beatiful Dark Twisted Fantasy', 'Ye', '077030122-3', 24.99, 2, 2);
+insert into products (name, description, code, price, Artist_id, Rating_id) values ('The Life of Pablo', 'Ye', '445924201-X', 24.99, 2, 3);
+insert into products (name, description, code, price, Artist_id, Rating_id) values ('Utopia', 'Travis Scott', '693155505-7', 29.99, 3, 3);
+insert into products (name, description, code, price, Artist_id, Rating_id) values ('To Pimp a Butterfly', 'Kendrick Lamar', '686928463-6', 14.99, 4, 1);
+insert into products (name, description, code, price, Artist_id, Rating_id) values ('Flower Boy', 'Tyler the Creator', '492662523-7', 24.99, 5, 2);
+insert into products (name, description, code, price, Artist_id, Rating_id) values ('Astroworld', 'Travis Scott', '816905633-0', 29.99, 3, 3 );
+insert into products (name, description, code, price, Artist_id, Rating_id) values ('Graduation', 'Ye', '077030122-3', 19.99, 2, 3 );
+insert into products (name, description, code, price, Artist_id, Rating_id) values ('IGOR', 'Tyler the Creator', '445924201-X', 24.99, 5, 2 );
+insert into products (name, description, code, price, Artist_id, Rating_id) values ('Damn', 'Kendrick Lamar', '693155505-7', 24.99, 4, 3 );
+
 
 insert into Artist (name) values ('Frank Ocean');
 insert into Artist (name) values ('Ye');
@@ -80,3 +87,4 @@ insert into FeaturedArtist (name) values ('Young Thug');
 insert into FeaturedArtist (name) values ('A$AP Rocky');
 insert into FeaturedArtist (name) values ('lil Wayne');
 insert into FeaturedArtist (name) values ('Rihanna');
+

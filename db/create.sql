@@ -29,7 +29,7 @@ CREATE TABLE FeaturedArtist (
 );
 
 
-CREATE TABLE ProductMETFeaturedArtist (
+CREATE TABLE ProductMetFeaturedArtist (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   Product_id INTEGER,
   FeaturedArtist_id INTEGER,

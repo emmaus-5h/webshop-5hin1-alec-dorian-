@@ -22,7 +22,7 @@
 
   CREATE TABLE FeaturedArtist (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    feat_artist VARCHAR(255)
+    Feat_Artist VARCHAR(255)
   );
 
 
@@ -71,23 +71,23 @@
   insert into Rating (name) values ('2/10');
   insert into Rating (name) values ('1/10');
 
-  insert into FeaturedArtist (feat_artist) values ('Pharrell Williams');
-  insert into FeaturedArtist (feat_artist) values ('Tyler The Creator');
-  insert into FeaturedArtist (feat_artist) values ('Kanye West');
-  insert into FeaturedArtist (feat_artist) values ('Beyoncé');
-  insert into FeaturedArtist (feat_artist) values ('Frank Ocean');
-  insert into FeaturedArtist (feat_artist) values ('Drake');
-  insert into FeaturedArtist (feat_artist) values ('21 Savage');
-  insert into FeaturedArtist (feat_artist) values ('Kid Cudi');
-  insert into FeaturedArtist (feat_artist) values ('The Weeknd');
-  insert into FeaturedArtist (feat_artist) values ('JAY-Z');
-  insert into FeaturedArtist (feat_artist) values ('Nicki Minaj');
-  insert into FeaturedArtist (feat_artist) values ('Kendrick Lamar');
-  insert into FeaturedArtist (feat_artist) values ('Playboi Carti');
-  insert into FeaturedArtist (feat_artist) values ('Young Thug');
-  insert into FeaturedArtist (feat_artist) values ('A$AP Rocky');
-  insert into FeaturedArtist (feat_artist) values ('lil Wayne');
-  insert into FeaturedArtist (feat_artist) values ('Rihanna');
+  insert into FeaturedArtist (Feat_Artist) values ('Pharrell Williams');
+  insert into FeaturedArtist (Feat_Artist) values ('Tyler The Creator');
+  insert into FeaturedArtist (Feat_Artist) values ('Kanye West');
+  insert into FeaturedArtist (Feat_Artist) values ('Beyoncé');
+  insert into FeaturedArtist (Feat_Artist) values ('Frank Ocean');
+  insert into FeaturedArtist (Feat_Artist) values ('Drake');
+  insert into FeaturedArtist (Feat_Artist) values ('21 Savage');
+  insert into FeaturedArtist (Feat_Artist) values ('Kid Cudi');
+  insert into FeaturedArtist (Feat_Artist) values ('The Weeknd');
+  insert into FeaturedArtist (Feat_Artist) values ('JAY-Z');
+  insert into FeaturedArtist (Feat_Artist) values ('Nicki Minaj');
+  insert into FeaturedArtist (Feat_Artist) values ('Kendrick Lamar');
+  insert into FeaturedArtist (Feat_Artist) values ('Playboi Carti');
+  insert into FeaturedArtist (Feat_Artist) values ('Young Thug');
+  insert into FeaturedArtist (Feat_Artist) values ('A$AP Rocky');
+  insert into FeaturedArtist (Feat_Artist) values ('lil Wayne');
+  insert into FeaturedArtist (Feat_Artist) values ('Rihanna');
 
 
 
@@ -149,9 +149,9 @@
 
 
 
-  select products.id, products.name, products.description, FeaturedArtist.id, FeaturedArtist.feat_artist  from products join ProductMetFeaturedArtist
+  select products.id as Album_ID, products.name as Album_Name, products.description as Main_Artist, FeaturedArtist.id as Feat_Artist_ID, FeaturedArtist.Feat_Artist  from products join ProductMetFeaturedArtist
   on products.id = ProductMetFeaturedArtist.products_id
   join FeaturedArtist 
   on FeaturedArtist.id = ProductMetFeaturedArtist.FeaturedArtist_id
 
-  ----
+  -- Meneer van geest zei dat dit ^^^ stukje ergens in de api moet komen alleen ik weet niet waar --

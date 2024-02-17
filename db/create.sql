@@ -148,10 +148,7 @@
   insert into ProductMetFeaturedArtist (products_id,FeaturedArtist_id) values (10, 4);
 
 
-
-  select products.id as Album_ID, products.name as Album_Name, products.description as Main_Artist, FeaturedArtist.id as Feat_Artist_ID, FeaturedArtist.Feat_Artist  from products join ProductMetFeaturedArtist
-  on products.id = ProductMetFeaturedArtist.products_id
-  join FeaturedArtist 
-  on FeaturedArtist.id = ProductMetFeaturedArtist.FeaturedArtist_id
+-- select products.id as Album_ID, products.name as Album_Name, products.description as Main_Artist, FeaturedArtist.id as Feat_Artist_ID, FeaturedArtist.Feat_Artist  from products join ProductMetFeaturedArtist on products.id = ProductMetFeaturedArtist.products_id join FeaturedArtist  on FeaturedArtist.id = ProductMetFeaturedArtist.FeaturedArtist_id
+ 
 
   -- Meneer van geest zei dat dit ^^^ stukje ergens in de api moet komen alleen ik weet niet waar --

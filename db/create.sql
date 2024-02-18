@@ -51,7 +51,7 @@
   insert into products (name, description, code, price, Artist_id, Rating_id) values ('Astroworld', 'Travis Scott', '816905633-0', 29.99, 3, 3 );
   insert into products (name, description, code, price, Artist_id, Rating_id) values ('Graduation', 'Ye', '077030122-3', 19.99, 2, 3 );
   insert into products (name, description, code, price, Artist_id, Rating_id) values ('IGOR', 'Tyler the Creator', '445924201-X', 24.99, 5, 2 );
-  insert into products (name, description, code, price, Artist_id, Rating_id) values ('Damn', 'Kendrick Lamar', '693155505-7', 24.99, 4, 3 );
+  insert into products (name, description, code, price, Artist_id, Rating_id) values ('Damn', 'Kendrick Lamar', '693155505-7', 24.99, 4, 10 );
 
 
   insert into Artist (name) values ('Frank Ocean');
